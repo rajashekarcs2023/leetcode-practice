@@ -68,6 +68,8 @@ class Solution {
             }
             
         }
+        //last element will remain the same if the number of elements is odd and 
+        //the for loop above is unreachable
         if(n%2!=0){
             answer[n-1] = a[n-1];
         }
